@@ -1,0 +1,12 @@
+# tugas2
+
+public class Main {
+    public static void main(String[]args){
+
+        Mahasiswa mahasiswa=new Mahasiswa("budi","12345678",3.14f); //3.14 pake f karena kl pake float udh ketentuan blkgnya pake f
+        mahasiswa.PrinData();
+        mahasiswa.UbahNama("Budi Dermawan");
+        mahasiswa.PrinData();
+
+    }
+}
